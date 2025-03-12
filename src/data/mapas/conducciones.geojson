@@ -1,0 +1,22 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Conducción Norte",
+        "DIAMETRO": "150 mm",
+        "LONGITUD_KM": 2.8
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.0091, -2.8871],
+          [-79.0001, -2.8871],
+          [-78.9891, -2.8871]
+        ]
+      }
+    }
+  ]
+}

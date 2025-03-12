@@ -22,7 +22,7 @@ const Resources = () => {
                   <h2 className="font-semibold">Sistema de Gestión de Recursos</h2>
                 </div>
                 <a 
-                  href="http://143.198.234.95/organization" 
+                  href="http://143.198.234.95:5000" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-red-600 hover:text-red-700 text-sm flex items-center gap-1"
@@ -34,7 +34,7 @@ const Resources = () => {
               
               <div className="w-full h-[calc(100vh-300px)] overflow-hidden">
                 <iframe 
-                  src="http://143.198.234.95/organization" 
+                  src="http://143.198.234.95:5000" 
                   className="w-full h-full border-0" 
                   title="Sistema de Recursos"
                   loading="lazy"
@@ -53,7 +53,7 @@ const Resources = () => {
                 <strong>Nota:</strong> Este sistema de recursos se carga desde un servidor externo. 
                 Si tiene problemas para visualizar el contenido, intente acceder directamente desde 
                 <a 
-                  href="http://143.198.234.95/organization" 
+                  href="http://143.198.234.95:5000" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-blue-700 underline mx-1"

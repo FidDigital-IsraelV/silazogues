@@ -1,0 +1,38 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Av. Principal",
+        "TIPO": "Avenida",
+        "LONGITUD_KM": 5.2
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-78.9991, -2.8971],
+          [-79.0091, -2.8771],
+          [-79.0191, -2.8571]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Calle del Comercio",
+        "TIPO": "Calle",
+        "LONGITUD_KM": 2.8
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-78.9991, -2.8971],
+          [-78.9891, -2.8971],
+          [-78.9791, -2.8971]
+        ]
+      }
+    }
+  ]
+}

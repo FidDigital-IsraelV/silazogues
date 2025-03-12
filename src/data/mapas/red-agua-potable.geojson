@@ -1,0 +1,38 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Red Centro",
+        "DIAMETRO": "100 mm",
+        "MATERIAL": "PVC"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.0001, -2.8871],
+          [-79.0001, -2.8971],
+          [-79.0001, -2.9071]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Red Este",
+        "DIAMETRO": "75 mm",
+        "MATERIAL": "PVC"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.0001, -2.8971],
+          [-78.9901, -2.8971],
+          [-78.9801, -2.8971]
+        ]
+      }
+    }
+  ]
+}

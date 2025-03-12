@@ -1,0 +1,50 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "PR001",
+        "AREA_M2": 250,
+        "PROPIETARIO": "Juan Perez"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[
+          -78.9991, -2.8971
+        ], [
+          -78.9971, -2.8971
+        ], [
+          -78.9971, -2.8951
+        ], [
+          -78.9991, -2.8951
+        ], [
+          -78.9991, -2.8971
+        ]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "PR002",
+        "AREA_M2": 300,
+        "PROPIETARIO": "Maria Lopez"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[
+          -79.0031, -2.8961
+        ], [
+          -79.0051, -2.8961
+        ], [
+          -79.0051, -2.8981
+        ], [
+          -79.0031, -2.8981
+        ], [
+          -79.0031, -2.8961
+        ]]]
+      }
+    }
+  ]
+}

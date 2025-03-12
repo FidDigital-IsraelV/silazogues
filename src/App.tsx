@@ -21,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/resources" element={<Resources />} />
           <Route path="/visor-territorial" element={<VisorTerritorial />} />
+          <Route path="/visor-territorial/:category" element={<VisorTerritorial />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

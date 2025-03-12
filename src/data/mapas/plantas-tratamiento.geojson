@@ -1,0 +1,30 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Planta Central",
+        "CAPACIDAD": "50 l/s",
+        "TIPO": "Potabilización"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.0091, -2.8871]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Planta Norte",
+        "CAPACIDAD": "30 l/s",
+        "TIPO": "Potabilización"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.9891, -2.8571]
+      }
+    }
+  ]
+}

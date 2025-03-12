@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight fade-up text-red-600">
-            Sistema de Información Local <span className="text-green-600">Azogues</span>
+            Sistema de Información <span className="text-green-600">Azogues</span>
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto fade-up" style={{ animationDelay: '0.1s' }}>
             Navegue por los diferentes recursos disponibles en este repositorio del Municipio de Azogues

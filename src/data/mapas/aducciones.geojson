@@ -1,0 +1,22 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Aducción Principal",
+        "DIAMETRO": "200 mm",
+        "LONGITUD_KM": 3.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-78.9791, -2.8471],
+          [-78.9891, -2.8571],
+          [-79.0091, -2.8871]
+        ]
+      }
+    }
+  ]
+}

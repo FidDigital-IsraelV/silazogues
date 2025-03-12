@@ -1,0 +1,45 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Río Principal",
+        "TIPO": "Río",
+        "LONGITUD_KM": 12.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-78.9791, -2.8471],
+          [-78.9891, -2.8571],
+          [-78.9991, -2.8671],
+          [-79.0091, -2.8771]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Laguna Central",
+        "TIPO": "Laguna",
+        "AREA_KM2": 1.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[
+          -79.0091, -2.8871
+        ], [
+          -79.0191, -2.8871
+        ], [
+          -79.0191, -2.8971
+        ], [
+          -79.0091, -2.8971
+        ], [
+          -79.0091, -2.8871
+        ]]]
+      }
+    }
+  ]
+}

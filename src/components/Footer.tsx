@@ -113,7 +113,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-12 pt-8 border-t text-center text-sm text-gray-600">
-          <p>© 2025 Israel Vasquez Carangui --FIDDIGITAL--. Todos los derechos reservados.</p>
+          <p>© 2024 Gobierno Autónomo Descentralizado Municipal de Azogues. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

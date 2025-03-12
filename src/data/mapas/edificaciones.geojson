@@ -1,0 +1,50 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ED001",
+        "USO": "Residencial",
+        "PISOS": 2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[
+          -79.0001, -2.8981
+        ], [
+          -79.0011, -2.8981
+        ], [
+          -79.0011, -2.8991
+        ], [
+          -79.0001, -2.8991
+        ], [
+          -79.0001, -2.8981
+        ]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": "ED002",
+        "USO": "Comercial",
+        "PISOS": 3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[
+          -79.0021, -2.8961
+        ], [
+          -79.0031, -2.8961
+        ], [
+          -79.0031, -2.8971
+        ], [
+          -79.0021, -2.8971
+        ], [
+          -79.0021, -2.8961
+        ]]]
+      }
+    }
+  ]
+}

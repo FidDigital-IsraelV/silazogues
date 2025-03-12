@@ -1,0 +1,52 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "PARROQUIA": "Azogues",
+        "POBLACION": 35000,
+        "AREA_KM2": 65.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[
+          -78.9991, -2.8971
+        ], [
+          -79.0091, -2.8671
+        ], [
+          -79.0291, -2.8571
+        ], [
+          -79.0391, -2.8771
+        ], [
+          -79.0191, -2.9071
+        ], [
+          -78.9991, -2.8971
+        ]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARROQUIA": "Luis Cordero",
+        "POBLACION": 12000,
+        "AREA_KM2": 28.3
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[
+          -78.9791, -2.8671
+        ], [
+          -78.9591, -2.8471
+        ], [
+          -78.9491, -2.8571
+        ], [
+          -78.9591, -2.8771
+        ], [
+          -78.9791, -2.8671
+        ]]]
+      }
+    }
+  ]
+}

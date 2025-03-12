@@ -1,0 +1,30 @@
+
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Captación Río Principal",
+        "CAUDAL": "25 l/s",
+        "ESTADO": "Activo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.9791, -2.8471]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NOMBRE": "Captación Quebrada",
+        "CAUDAL": "15 l/s",
+        "ESTADO": "Activo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.0291, -2.8571]
+      }
+    }
+  ]
+}
