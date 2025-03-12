@@ -26,7 +26,7 @@ const MapControls = ({ mapRef }: MapControlsProps) => {
       </button>
       <button 
         className="bg-white p-2 rounded-full shadow-md hover:bg-gray-100" 
-        onClick={() => mapRef.current?.setView([-2.8971, -78.9991], 13)}
+        onClick={() => mapRef.current?.setView([-2.740947, -78.848823], 12)}
         aria-label="Reset view"
       >
         <Maximize size={20} className="text-gray-700" />
