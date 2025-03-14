@@ -6,9 +6,13 @@ const Information = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="fade-up">
             <img 
-              src="/lovable-uploads/4097ee99-319b-4152-a984-a0ccabdf293f.png"
+
+              src="/imagenes/silazogues.jpg"
+
               alt="Sistema de Información Local"
-              className="w-full h-auto"
+
+              className="w-full max-w-xs mx-auto" 
+
             />
           </div>
           <div className="fade-up" style={{ animationDelay: '0.1s' }}>

@@ -1,7 +1,7 @@
 
 // Configuración para los diferentes tipos de visores
 
-// URLs locales para los archivos GeoJSON
+// URLs locales para los archivos GeoJSON (mantenemos estos para compatibilidad)
 export const localGeoJSONUrls = {
   parroquias: "/src/data/mapas/parroquias.geojson",
   vias: "/src/data/mapas/vias.geojson",
@@ -56,6 +56,12 @@ export const layerStyles = {
     opacity: 0.9,
     fillOpacity: 0.05
   },
+  limiteParroquial: {
+    color: "#ff7800",
+    weight: 2,
+    opacity: 0.8,
+    fillOpacity: 0.1
+  },
   plantasTratamiento: {
     radius: 8,
     color: "#008000",
@@ -89,33 +95,100 @@ export const layerStyles = {
   }
 };
 
+// URLs de servicios WMS
+export const wmsLayerUrls = {
+  // EMAPAL WMS layers from Urbithings
+  plantasTratamiento: {
+    url: "https://services.urbithings.com/geoserver/J9KxG17VrP/wms?",
+    layers: "62f3461a-f7fa-4573-bd25-3ff6e782b1d8",
+    format: 'image/png',
+    transparent: true
+  },
+  captaciones: {
+    url: "https://services.urbithings.com/geoserver/J9KxG17VrP/wms?",
+    layers: "d25ae259-5821-431c-b7b4-20113e44524d",
+    format: 'image/png',
+    transparent: true
+  },
+  aducciones: {
+    url: "https://services.urbithings.com/geoserver/J9KxG17VrP/wms?",
+    layers: "0988eef0-5a1b-4d5e-a40e-36f4ef21cc91",
+    format: 'image/png',
+    transparent: true
+  },
+  conducciones: {
+    url: "https://services.urbithings.com/geoserver/J9KxG17VrP/wms?",
+    layers: "588af586-49c0-4b85-bb09-55dfd171df4b",
+    format: 'image/png',
+    transparent: true
+  },
+  redAguaPotable: {
+    url: "https://services.urbithings.com/geoserver/J9KxG17VrP/wms?",
+    layers: "2090bf23-b8bc-4f35-a14a-1ee159ac0c25",
+    format: 'image/png',
+    transparent: true
+  },
+  // Boundary layers
+  limiteParroquial: {
+    url: "https://services.urbithings.com/geoserver/J9KxG17VrP/wms?",
+    layers: "fd03ffe7-8717-423d-9771-34e99b2df1a1",
+    format: 'image/png',
+    transparent: true
+  },
+  limiteUrbano: {
+    url: "https://services.urbithings.com/geoserver/J9KxG17VrP/wms?",
+    layers: "b2222f50-82e4-496f-982c-f463917611c4",
+    format: 'image/png',
+    transparent: true
+  },
+  // Catastro WMS layers - Fixed URLs and layer names
+  edificaciones: {
+    url: "https://services.urbithings.com/geoserver/J9KxG17VrP/wms?",
+    layers: "507dd439-bb23-40a9-85e8-d925404ab413",
+    format: 'image/png',
+    transparent: true
+  },
+  predios: {
+    url: "https://services.urbithings.com/geoserver/J9KxG17VrP/wms?",
+    layers: "88726a43-c5cc-4750-b556-ef6549e14254",
+    format: 'image/png',
+    transparent: true
+  },
+  vias: {
+    url: "https://ide.azogues.gob.ec/gs/ide/wms?",
+    layers: "V001_VIAS_L",
+    format: 'image/png',
+    transparent: true
+  }
+};
+
 // Configuración de categorías y sus capas asociadas
 export const mapCategories = [
   {
     id: "completo",
     name: "Visor Territorial Completo",
     layers: [
-      { id: "parroquias", name: "Límites Parroquiales", defaultActive: true },
-      { id: "vias", name: "Vías", defaultActive: false },
-      { id: "hidrografia", name: "Hidrografía", defaultActive: false },
-      { id: "edificaciones", name: "Catastro Edificaciones", defaultActive: false },
-      { id: "predios", name: "Predios", defaultActive: false },
-      { id: "limiteUrbano", name: "Límite Urbano", defaultActive: false },
-      { id: "plantasTratamiento", name: "Plantas Tratamiento", defaultActive: false },
-      { id: "captaciones", name: "Captaciones", defaultActive: false },
-      { id: "aducciones", name: "Aducciones", defaultActive: false },
-      { id: "conducciones", name: "Conducciones", defaultActive: false },
-      { id: "redAguaPotable", name: "Red Agua Potable", defaultActive: false }
+      { id: "limiteParroquial", name: "Límite Parroquial", defaultActive: true },
+      { id: "limiteUrbano", name: "Límite Urbano", defaultActive: true },
+      { id: "plantasTratamiento", name: "Plantas Tratamiento", defaultActive: true },
+      { id: "captaciones", name: "Captaciones", defaultActive: true },
+      { id: "aducciones", name: "Aducciones", defaultActive: true },
+      { id: "conducciones", name: "Conducciones", defaultActive: true },
+      { id: "redAguaPotable", name: "Red Agua Potable", defaultActive: true },
+      { id: "edificaciones", name: "Edificaciones", defaultActive: true },
+      { id: "predios", name: "Predios", defaultActive: true },
+      { id: "vias", name: "Vías", defaultActive: true }
     ]
   },
   {
-    id: "avaluos",
-    name: "Avalúos y Catastros",
+    id: "catastro",
+    name: "Catastro",
     layers: [
-      { id: "predios", name: "Predios", defaultActive: true },
-      { id: "edificaciones", name: "Edificaciones", defaultActive: true },
+      { id: "limiteParroquial", name: "Límite Parroquial", defaultActive: true },
       { id: "limiteUrbano", name: "Límite Urbano", defaultActive: true },
-      { id: "parroquias", name: "Límite Parroquial", defaultActive: true }
+      { id: "edificaciones", name: "Edificaciones", defaultActive: true },
+      { id: "predios", name: "Predios", defaultActive: true },
+      { id: "vias", name: "Vías", defaultActive: true }
     ]
   },
   {
@@ -128,7 +201,8 @@ export const mapCategories = [
       { id: "conducciones", name: "Conducciones", defaultActive: true },
       { id: "redAguaPotable", name: "Red Agua Potable", defaultActive: true },
       { id: "limiteUrbano", name: "Límite Urbano", defaultActive: true },
-      { id: "parroquias", name: "Límite Parroquial", defaultActive: true }
+      { id: "limiteParroquial", name: "Límite Parroquial", defaultActive: true }
     ]
   }
 ];
+
